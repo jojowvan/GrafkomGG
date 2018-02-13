@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Jumpkey" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/coba_sfml" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/coba_sfml" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="E:/Code Blocks/CodeBlocks/sfml/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-audio" />
+			<Add library="sfml-network" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add library="winmm" />
+			<Add directory="E:/Code Blocks/CodeBlocks/sfml/lib" />
+		</Linker>
+		<Unit filename="Jumpkey.cpp" />
+		<Unit filename="images/0.png" />
+		<Unit filename="images/1.png" />
+		<Unit filename="images/2.png" />
+		<Unit filename="images/3.png" />
+		<Unit filename="images/4.png" />
+		<Unit filename="images/5.png" />
+		<Unit filename="images/6.png" />
+		<Unit filename="images/7.png" />
+		<Unit filename="images/8.png" />
+		<Unit filename="images/9.png" />
+		<Unit filename="images/adaRocket.png" />
+		<Unit filename="images/background.jpg" />
+		<Unit filename="images/backsound.wav" />
+		<Unit filename="images/banana.png" />
+		<Unit filename="images/banana.wav" />
+		<Unit filename="images/cek.wav" />
+		<Unit filename="images/click.wav" />
+		<Unit filename="images/die.wav" />
+		<Unit filename="images/home about.png" />
+		<Unit filename="images/home credit.png" />
+		<Unit filename="images/home exit.png" />
+		<Unit filename="images/home play.png" />
+		<Unit filename="images/injekan.PNG" />
+		<Unit filename="images/injekanGede.PNG" />
+		<Unit filename="images/jump.wav" />
+		<Unit filename="images/kaktusBulet.png" />
+		<Unit filename="images/kaktusPanjang.png" />
+		<Unit filename="images/kanan.png" />
+		<Unit filename="images/kiri.png" />
+		<Unit filename="images/monster.png" />
+		<Unit filename="images/pakeRocket.PNG" />
+		<Unit filename="images/poin.png" />
+		<Unit filename="images/rocket.png" />
+		<Unit filename="images/rocket2.wav" />
+		<Unit filename="images/saybanana.wav" />
+		<Unit filename="images/tulisan.png" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
